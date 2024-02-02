@@ -1,0 +1,109 @@
+:root {
+    --header-height: 3rem;
+    --nav-width: 68px;
+    --first-color: #4723D9;
+    --first-color-light: #AFA5D9;
+    --white-color: #F7F6FB;
+    --body-font: 'Nunito', sans-serif;
+    --normal-font-size: 1rem;
+    --z-fixed: 100
+  }
+
+.sidebar{
+    background-color:rgb(14 5 98);
+    color: white;
+   /* height:auto; */
+
+}
+.routes {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+a{
+    text-decoration: none;
+}
+.nav-item a:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.top_section{
+    display: block;
+    
+    padding: 7px;
+    color:  white;
+}
+.link{
+    display: flex;
+    color: white;
+    gap: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: 0.2s cubic-bezier(0.6,-0.28,0.735,0.045);
+}
+.link:hover{
+    border-right: 4px solid white;
+    transition: 0.2s cubic-bezier(0.6,-0.28,0.735,0.045);
+    background: rgb(46, 22, 107);
+}
+.bars{
+    width: 30px;
+    cursor: pointer;
+}
+.link_text{
+    white-space: nowrap;
+    font-size: 15px;
+}
+.main-container{
+    display: flex;
+}
+.main{
+   
+    padding: 10px;
+    height: 80vh;
+   
+    position: static;
+    overflow-x: auto;
+    overflow-y: auto;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available
+    
+}
+
+
+.menu{
+  display: flex;
+  color: white;
+  padding: 5px 10px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  justify-content: space-between;
+}
+.menu_item{
+    display: flex;
+    gap: 10px;
+   
+}
+.menu_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header{
+    position: relative;
+    max-height: 100px;
+    cursor: pointer;
+    z-index: 1030;
+}
+.main-header .navbar{
+    background-color: #8c84da;
+    height: 54px;
+  
+}
+
+
+
+

@@ -1,0 +1,33 @@
+
+.offsetBody{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+ }
+ .offsetContainer{
+     width: 98%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .offsetFormContainer{
+     width: 98%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     margin-top: 20px;
+ }
+ .offsetButtom{
+     display: flex;
+     justify-content: right;
+ 
+ }
+
+ .offset_boxdata{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ 
+ #wilder-row{
+    padding: 18px;
+    background-color: rgb(161, 11, 24);
+ } 
+
+
+
+ 

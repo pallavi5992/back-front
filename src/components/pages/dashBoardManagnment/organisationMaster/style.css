@@ -1,0 +1,75 @@
+/* button css  */
+.resizable-btn{
+    transition: all 0.3s ese-in-out;
+}
+.resizable-btn:hover{
+
+    transform: scale(1.1);
+}
+.custom-padding{
+
+     padding-left: 7rem;
+     padding-right: 7rem;
+
+}
+.btn-spacing{
+    margin-right:0.5rem;
+}
+
+
+
+/* Addorganisation Master css */
+
+.resizable-btn{
+    transition: all 0.2s ese-in-out;
+}
+.resizable-btn:hover{
+
+    transform: scale(1.1);
+}
+.custom-padding1{
+
+     padding-left: 2rem;
+     padding-right: 1rem;
+
+}
+.btn-spacing1{
+    margin-right:0.5rem;
+}
+
+
+
+/* Add organisation css */
+.updateusermaster{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+
+
+}
+.contentUserAddmaster{
+    width: 30%;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-direction:column;
+    align-items: center;
+
+
+}
+
+.btn-spacingaddusermaster{
+    margin-left: 20px;
+    transform: scale(1.1);
+    transition: all 0.3s ese-in-out;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.paddingmastertop{
+    padding-bottom: 51px;
+    padding-top: 20px;
+}
+

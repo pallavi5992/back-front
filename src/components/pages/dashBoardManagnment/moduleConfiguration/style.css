@@ -1,0 +1,39 @@
+
+.configContainer{
+   
+    height: 100vh;
+    
+}
+.plus {
+    background-color: #00c0ef;
+    color: white;
+    margin-left: 16px;
+    border: none;
+}
+.Configcontent{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.configForm{
+    display: flex;
+    justify-content: center;
+}
+.logoAccesss{
+    display: flex;
+}
+.accessline{
+   
+    border:1px solid rgb(241, 234, 234)
+}
+
+.selus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+#checkBoxes{
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+    padding: 9px;
+}

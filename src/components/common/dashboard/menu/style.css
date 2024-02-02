@@ -1,0 +1,47 @@
+.menu_container {
+  display: flex;
+  flex-direction: column;
+  background: #737ccf;
+}
+.menu_container .link {
+  padding-left: 20px;
+}
+.sublink {
+  display: flex;
+  color: white;
+  gap: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.submenu_container {
+  display: flex;
+  flex-direction: column;
+  background: rgb(153, 114, 114);
+}
+.submenu_container .sublink {
+  padding-left: 32px;
+}
+
+.submenu {
+  display: flex;
+  color: white;
+  padding: 5px 20px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  justify-content: space-between;
+}
+.submenu_item {
+  display: flex;
+  gap: 10px;
+}
+.submenu_container {
+  display: flex;
+  flex-direction: column;
+}
+.sublink:hover {
+  border-right: 4px solid white;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  background: rgb(46, 22, 107);
+}

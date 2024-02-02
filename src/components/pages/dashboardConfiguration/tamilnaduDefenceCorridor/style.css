@@ -1,0 +1,38 @@
+.btn-primary {
+    background-color: #3c8dbc;
+    border-color: #367fa9;
+}
+.contentAddTl{
+    width: 50%;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-direction: column;
+
+    margin-top: 30px;
+}
+
+.btn_tl{
+    width:40px;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 600px){
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        margin-left: calc(0px - 25px);
+
+    }
+}
+@media(max-width: 600px){
+     .btn{
+        display: flex;
+        justify-content: center;
+
+     }
+
+}

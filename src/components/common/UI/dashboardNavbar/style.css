@@ -1,0 +1,21 @@
+.main-header{
+    position: relative;
+    max-height: 100px;
+    cursor: pointer;
+    z-index: 1030;
+}
+.main-header .navbar{
+    background-color: #8c84da;
+    height: 54px;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    /* left: 0; */
+    /* margin-top: var(--bs-dropdown-spacer); */
+}
+.dropdown-menu.show{
+    display: block;
+    background-color: #8c84da;
+    margin-left: -48px;
+    margin-top: 7px;
+}

@@ -1,0 +1,25 @@
+.accessContainer{
+    height: 100vh;
+    
+}
+.content{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logoAccesss{
+    display: flex;
+}
+.accessline{
+    border:1px solid rgb(241, 234, 234)
+}
+
+.accessForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#checkBoxes{
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+    padding: 9px;
+}

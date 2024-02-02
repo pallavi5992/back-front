@@ -1,0 +1,55 @@
+.exportBody{
+   display: flex;
+   justify-content: center;
+}
+.exportContainer{
+    width: 98%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.exportFormContainer{
+    width: 98%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+}
+.exportButtom{
+    display: flex;
+    justify-content: right;
+
+}
+
+
+/* View ExportData */
+
+.ViewExportBody{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+ }
+ .ViewExportContainer{
+     width: 98%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .ViewExportFormContainer{
+     width: 98%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     margin-top: 20px;
+ }
+ .ViewExportButtom{
+     display: flex;
+     justify-content: right;
+ 
+ }
+
+ .ViewExport_boxdata{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ 
+ #wilder-row{
+    padding: 18px;
+    background-color: rgb(161, 11, 24);
+ }
+
+
+
+
+

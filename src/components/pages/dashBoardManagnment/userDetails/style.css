@@ -1,0 +1,80 @@
+.nav-tabs-custom {
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.nav-tabs-custom>.nav-tabs.pull-right {
+    float: none !important;
+}
+
+.nav-tabs-custom>.nav-tabs.pull-right>li:first-of-type {
+    margin-right: 0;
+}
+
+
+/* userDeatls css */
+.userDiv{
+    width: 80vw;
+    height: 70vh;
+   
+}
+
+/* css update user and add user css */
+.updateUser {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contentUser {
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: fit-content;
+    flex-direction:column
+}
+.contentUserAdd{
+    height: 70vh;
+    width: 70%;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-direction: column;
+}
+.contentUser p{
+    margin-top: 30px;
+    color: #0dc5f1;
+    font-size: larger;
+    font-family: ui-sans-serif;
+    font-weight: 800;
+}
+.formUpdate{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Adduser button space */
+
+.btn-spacingadduser{
+    margin: right 0.7rem;
+    margin-left: 20px;
+    transform: scale(1.1);
+    transition: all 0.3s ese-in-out;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+}
+
+.CaptchImage{
+    display: flex;
+    justify-content: center;
+}
+/* .resizableadduser-btn:hover{
+
+    transform: scale(1.1);
+} */

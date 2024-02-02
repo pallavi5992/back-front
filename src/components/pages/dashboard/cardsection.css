@@ -1,0 +1,145 @@
+
+  /*____________Card Section Styles______________ */
+.card-heading{
+    color: rgb(18, 63, 122);
+}
+  .border-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(rgba(8, 163, 235, 0.548),rgb(233, 136, 8));
+    border-radius: 50%; 
+    border: 1px solid rgb(149, 158, 149);
+}
+.border-div:hover{
+      background: linear-gradient(rgb(201, 79, 8),rgba(10, 231, 10, 0.61));
+    cursor: pointer;
+    /* border: 1px solid rgba(20, 211, 20, 0.11); */
+  }
+  .content-div{
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(230, 171, 220, 0),rgba(233, 250, 136, 0.712));
+  }
+
+  .card_content_div{
+    padding-top: 55px;
+  }
+  .logo_icon{
+    background-color: red;
+    padding: 1px;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    color: white;
+  }
+
+  .btn_div{
+    background-color: rgb(4, 182, 84);
+    /* padding: 1px; */
+    width: 59px;
+    /* border-radius: 2px; */
+    color: white;
+  }
+
+  .bg_success_modal , .btn_modal{
+    background-color:rgb(4, 182, 84) ;
+  }
+  
+  .vertical_Line{
+    border-left: 1px solid black;
+    height: 70px;
+  }
+
+  .text_size{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(2, 187, 58);
+    /* background-color: #00e5ff; */
+    
+  }
+  .number_claim{
+    font-size: 21px;
+  }
+
+  .mnUSD,.text_mnUSD{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(194, 149, 3, 0.959);
+    
+  }
+  .text_off_obligaation{
+    color: rgba(133, 7, 172, 0.671);
+  }
+  .arrow_icon{
+    font-size: 10px;
+  }
+
+  .number_cr_prod{
+    font-size: 29px;
+  }
+
+  .font_size_upto{
+    font-size: 13px;
+  }
+
+  .make_li{
+    font-size: 12px;
+    font-weight: 500;
+    color: #b400fb;
+  }
+
+
+/*________________________//Card styles//__________________________________*/
+.card_section{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    background-color: #191919;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.card_section::before{
+    content: '';
+    width: 120px;
+    height: 600px;
+    left: 60px;  
+    top: -120px;
+    background: linear-gradient(#00e5ff,#b400fb);
+    position: absolute;
+    animation: animate 5s linear infinite;
+}
+
+.card_section::after{
+    content:'';
+    position: absolute;
+    background: #191919;
+    inset: 5px;
+    border-radius: 5px;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+span.update-dates {
+  border: 1px solid red;
+  padding: 1px 5px;
+  background: red;
+  color: #fff;
+  border-radius: 100%;
+
+}
